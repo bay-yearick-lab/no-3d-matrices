@@ -128,7 +128,6 @@ def make_figure(rows: list[dict]) -> None:
     ax.set_xlabel("unknowns $N_x N_y N_z$", fontsize=10)
     ax.set_ylabel("solve time (s)", fontsize=10)
     ax.set_title("(a) wall-clock time for one 3D solve", fontsize=11)
-    ax.legend(loc="upper left", fontsize=8, frameon=False)
 
     ax = axes[1]
     ax.loglog([r["dof"] for r in asm], [r["fill_bytes"] / 1e6 for r in asm],
@@ -138,7 +137,12 @@ def make_figure(rows: list[dict]) -> None:
     ax.set_xlabel("unknowns $N_x N_y N_z$", fontsize=10)
     ax.set_ylabel("operator storage (MB)", fontsize=10)
     ax.set_title("(b) operator storage", fontsize=11)
-    ax.legend(loc="upper left", fontsize=8, frameon=False)
+
+    # One legend for both panels: the two routes share colours and markers
+    # across (a) and (b), so a single key centred above the figures suffices.
+    handles, labels = axes[0].get_legend_handles_labels()
+    fig.legend(handles, labels, loc="outside upper center", ncol=2,
+               frameon=False, fontsize=9)
 
     fig.savefig(OUTDIR / "poisson3d_benchmark.pdf", bbox_inches="tight")
     plt.close(fig)

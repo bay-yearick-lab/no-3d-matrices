@@ -6,6 +6,7 @@
 \usepackage{bm}
 \usepackage{booktabs}
 \usepackage[section]{placeins}
+\usepackage[title]{appendix}
 \usepackage{graphicx}
 \usepackage{tikz}
 \usetikzlibrary{calc,arrows.meta,positioning,decorations.pathreplacing,shapes.geometric,backgrounds,patterns,3d,fit}
@@ -2251,7 +2252,7 @@ organizing principle.
 \bibliography{references}
 
 \clearpage
-\appendix
+\begin{appendices}
 
 % ====================================================================
 \section{Algebraic details for the 1D reductions}
@@ -2609,5 +2610,7 @@ becomes, in the same way,
 \end{equation}
 In every case the multidimensional structure expands the number of
 independent lines, not the size or shape of the kernel.  $\square$
+
+\end{appendices}
 
 \end{document}
