@@ -30,6 +30,7 @@ import time
 from pathlib import Path
 
 import matplotlib as mpl
+mpl.use("Agg")  # render to file only; no display / interactive backend needed
 import matplotlib.pyplot as plt
 import numpy as np
 import scipy.sparse as sp
