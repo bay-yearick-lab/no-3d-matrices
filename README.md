@@ -34,8 +34,8 @@ production codes turn it into hardware-efficient kernels.
 ./build_paper.sh
 ```
 
-Requires a TeX distribution with `pdflatex` and `bibtex` (`bibtex8` is used when
-available). The output is `paper/main.pdf`.
+Requires a TeX distribution with `latexmk`, `pdflatex`, and `bibtex` (`bibtex8`
+is used when available). The output is `paper/main.pdf`.
 
 ## Reproduce the figures and the experiment
 
