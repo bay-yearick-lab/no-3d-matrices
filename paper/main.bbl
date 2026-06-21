@@ -1,0 +1,185 @@
+\begin{thebibliography}{28}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Li \& Laizet(2010)Li and Laizet]{li2010decomp}
+Ning Li and Sylvain Laizet.
+\newblock {2DECOMP\&FFT}: A highly scalable 2d decomposition library and {FFT}
+  interface.
+\newblock In \emph{Cray User Group 2010 Conference}, Edinburgh, United Kingdom,
+  2010.
+
+\bibitem[de~Boor(1978)]{deboor1978practical}
+Carl de~Boor.
+\newblock \emph{A Practical Guide to Splines}.
+\newblock Springer, 1978.
+
+\bibitem[Kim \& Moin(1985)Kim and Moin]{kim1985application}
+John Kim and Parviz Moin.
+\newblock Application of a fractional-step method to incompressible
+  {N}avier--{S}tokes equations.
+\newblock \emph{Journal of Computational Physics}, 59\penalty0 (2):\penalty0
+  308--323, 1985.
+
+\bibitem[Bay(2019)]{bay2019dissertation}
+Yong~Yi Bay.
+\newblock \emph{An Energy-Conservative Cut-Cell Method and Advanced
+  {B}-Spline-Based Filtering Method for Flow Simulation}.
+\newblock {Ph.D.} dissertation, University of Illinois at Urbana-Champaign,
+  2019.
+\newblock \url{https://hdl.handle.net/2142/106215}.
+
+\bibitem[Van~Loan(2000)]{loan2000ubiquitous}
+Charles~F Van~Loan.
+\newblock The ubiquitous {K}ronecker product.
+\newblock \emph{Journal of Computational and Applied Mathematics}, 123\penalty0
+  (1--2):\penalty0 85--100, 2000.
+
+\bibitem[Lele(1992)]{lele1992compact}
+Sanjiva~K Lele.
+\newblock Compact finite difference schemes with spectral-like resolution.
+\newblock \emph{Journal of Computational Physics}, 103\penalty0 (1):\penalty0
+  16--42, 1992.
+
+\bibitem[Beam \& Warming(1976)Beam and Warming]{beam1976implicit}
+Richard~M Beam and Robert~F Warming.
+\newblock An implicit finite-difference algorithm for hyperbolic systems in
+  conservation-law form.
+\newblock \emph{Journal of Computational Physics}, 22\penalty0 (1):\penalty0
+  87--110, 1976.
+
+\bibitem[Golub \& Van~Loan(2013)Golub and Van~Loan]{golub2013matrix}
+Gene~H Golub and Charles~F Van~Loan.
+\newblock \emph{Matrix Computations}.
+\newblock Johns Hopkins University Press, 4 edition, 2013.
+
+\bibitem[Costa(2018)]{costa2018fft}
+Pedro Costa.
+\newblock A {FFT}-based finite-difference solver for massively-parallel direct
+  numerical simulations of turbulent flows.
+\newblock \emph{Computers \& Mathematics with Applications}, 76\penalty0
+  (8):\penalty0 1853--1862, 2018.
+
+\bibitem[Frigo \& Johnson(2005)Frigo and Johnson]{frigo2005design}
+Matteo Frigo and Steven~G. Johnson.
+\newblock The design and implementation of {FFTW3}.
+\newblock \emph{Proceedings of the IEEE}, 93\penalty0 (2):\penalty0 216--231,
+  2005.
+\newblock \doi{10.1109/JPROC.2004.840301}.
+
+\bibitem[Kolda \& Bader(2009)Kolda and Bader]{kolda2009tensor}
+Tamara~G Kolda and Brett~W Bader.
+\newblock Tensor decompositions and applications.
+\newblock \emph{{SIAM} Review}, 51\penalty0 (3):\penalty0 455--500, 2009.
+
+\bibitem[Lynch et~al.(1964)Lynch, Rice, and Thomas]{lynch1964direct}
+Robert~E Lynch, John~R Rice, and David~H Thomas.
+\newblock Direct solution of partial difference equations by tensor product
+  methods.
+\newblock \emph{Numerische Mathematik}, 6\penalty0 (1):\penalty0 185--199,
+  1964.
+
+\bibitem[Rolfo et~al.(2023)Rolfo, Flageul, Bartholomew, Spiga, and
+  Laizet]{rolfo2023decomp}
+Stefano Rolfo, C{\'e}dric Flageul, Paul Bartholomew, Filippo Spiga, and Sylvain
+  Laizet.
+\newblock The {2DECOMP\&FFT} library: an update with new {CPU/GPU}
+  capabilities.
+\newblock \emph{Journal of Open Source Software}, 8\penalty0 (91):\penalty0
+  5813, 2023.
+\newblock \doi{10.21105/joss.05813}.
+
+\bibitem[Bewley et~al.(2001)Bewley, Moin, and Temam]{bewley2001dns}
+Thomas~R Bewley, Parviz Moin, and Roger Temam.
+\newblock {DNS}-based predictive control of turbulence: an optimal benchmark
+  for feedback algorithms.
+\newblock \emph{Journal of Fluid Mechanics}, 447:\penalty0 179--225, 2001.
+
+\bibitem[Hughes et~al.(2005)Hughes, Cottrell, and
+  Bazilevs]{hughes2005isogeometric}
+Thomas~JR Hughes, John~A Cottrell, and Yuri Bazilevs.
+\newblock Isogeometric analysis: {CAD}, finite elements, {NURBS}, exact
+  geometry and mesh refinement.
+\newblock \emph{Computer Methods in Applied Mechanics and Engineering},
+  194\penalty0 (39--41):\penalty0 4135--4195, 2005.
+
+\bibitem[Hirsch(2007)]{hirsch2007numerical}
+Charles Hirsch.
+\newblock \emph{Numerical Computation of Internal and External Flows}.
+\newblock Butterworth-Heinemann, 2 edition, 2007.
+
+\bibitem[Strang(2007)]{strang2007computational}
+Gilbert Strang.
+\newblock \emph{Computational Science and Engineering}.
+\newblock Wellesley-Cambridge Press, 2007.
+
+\bibitem[Thomas(1949)]{thomas1949elliptic}
+Llewellyn~H Thomas.
+\newblock Elliptic problems in linear difference equations over a network.
+\newblock \emph{Watson Scientific Computing Laboratory Report}, 1949.
+
+\bibitem[Douglas(1962)]{douglas1962alternating}
+Jim Douglas.
+\newblock Alternating direction methods for three space variables.
+\newblock \emph{Numerische Mathematik}, 4\penalty0 (1):\penalty0 41--63, 1962.
+
+\bibitem[Douglas \& Gunn(1964)Douglas and Gunn]{douglas1964numerical}
+Jim Douglas, Jr and James~E Gunn.
+\newblock A general formulation of alternating direction methods.
+\newblock \emph{Numerische Mathematik}, 6\penalty0 (1):\penalty0 428--453,
+  1964.
+
+\bibitem[Iserles(2009)]{iserles2009first}
+Arieh Iserles.
+\newblock \emph{A First Course in the Numerical Analysis of Differential
+  Equations}.
+\newblock Cambridge University Press, 2 edition, 2009.
+
+\bibitem[Deville et~al.(2002)Deville, Fischer, and Mund]{deville2002high}
+Michel~O Deville, Paul~F Fischer, and Ernest~H Mund.
+\newblock \emph{High-Order Methods for Incompressible Fluid Flow}.
+\newblock Cambridge University Press, 2002.
+
+\bibitem[Johnson(2005)]{johnson2005higher}
+Richard~W Johnson.
+\newblock Higher order {B}-spline collocation at the {G}reville abscissae.
+\newblock \emph{Applied Numerical Mathematics}, 52\penalty0 (1):\penalty0
+  63--75, 2005.
+
+\bibitem[LeVeque(2007)]{leveque2007finite}
+Randall~J LeVeque.
+\newblock \emph{Finite Difference Methods for Ordinary and Partial Differential
+  Equations}.
+\newblock SIAM, 2007.
+
+\bibitem[Cottrell et~al.(2009)Cottrell, Hughes, and
+  Bazilevs]{cottrell2009isogeometric}
+J~Austin Cottrell, Thomas~JR Hughes, and Yuri Bazilevs.
+\newblock \emph{Isogeometric Analysis: Toward Integration of {CAD} and {FEA}}.
+\newblock Wiley, 2009.
+
+\bibitem[Fornberg(1988)]{fornberg1988generation}
+Bengt Fornberg.
+\newblock Generation of finite difference formulas on arbitrarily spaced grids.
+\newblock \emph{Mathematics of Computation}, 51\penalty0 (184):\penalty0
+  699--706, 1988.
+
+\bibitem[Peaceman \& Rachford(1955)Peaceman and
+  Rachford]{peaceman1955numerical}
+Donald~W Peaceman and Henry~H Rachford, Jr.
+\newblock The numerical solution of parabolic and elliptic differential
+  equations.
+\newblock \emph{Journal of the Society for Industrial and Applied Mathematics},
+  3\penalty0 (1):\penalty0 28--41, 1955.
+
+\bibitem[Haidvogel \& Zang(1979)Haidvogel and Zang]{haidvogel1979accurate}
+Dale~B Haidvogel and Thomas Zang.
+\newblock The accurate solution of {P}oisson's equation by expansion in
+  {C}hebyshev polynomials.
+\newblock \emph{Journal of Computational Physics}, 30\penalty0 (2):\penalty0
+  167--180, 1979.
+
+\end{thebibliography}

@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the paper below."
+title: "No 3D Matrices: A Unified Tensor-Product View of Matrix-Free Cartesian PDE Solvers"
+authors:
+  - family-names: Bay
+    given-names: "Yong Yi"
+  - family-names: Yearick
+    given-names: "Kathleen A."
+preferred-citation:
+  type: article
+  title: "No 3D Matrices: A Unified Tensor-Product View of Matrix-Free Cartesian PDE Solvers"
+  authors:
+    - family-names: Bay
+      given-names: "Yong Yi"
+    - family-names: Yearick
+      given-names: "Kathleen A."
+  year: 2026
+  # Fill in once posted to arXiv:
+  # journal: "arXiv preprint arXiv:XXXX.XXXXX"
+  # doi: "10.48550/arXiv.XXXX.XXXXX"
