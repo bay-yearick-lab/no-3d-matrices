@@ -2233,7 +2233,10 @@ roads~\citep{hirsch2007numerical,leveque2007finite,iserles2009first};
 the route taken here is the Kronecker product, which trades a page of
 index gymnastics for a single line of algebra and gives a sharp
 baseline against which matrix-free, low-rank, and learned accelerators
-can be judged.
+can be judged.  For learned accelerators the test is twofold---cost
+against this $\bigO(\Nall)$ baseline, and accuracy once the inputs drift
+away from the training regime, where the distinction between fitting and
+genuine generalization becomes decisive~\citep{bay2024generalization}.
 
 \paragraph{A closing word.}
 A separable three-dimensional Cartesian problem is really a
