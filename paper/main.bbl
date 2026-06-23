@@ -1,4 +1,4 @@
-\begin{thebibliography}{29}
+\begin{thebibliography}{30}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -31,6 +31,12 @@ Yong~Yi Bay.
 \newblock {Ph.D.} dissertation, University of Illinois at Urbana-Champaign,
   2019.
 \newblock \url{https://hdl.handle.net/2142/106215}.
+
+\bibitem[Bay \& Yearick(2026)Bay and Yearick]{bay2026spline}
+Yong~Yi Bay and Kathleen~A. Yearick.
+\newblock Solve for the hyperparameter, skip the search: {K}olmogorov-optimal
+  scaling laws for spline regression.
+\newblock \emph{arXiv preprint arXiv:2606.23575}, 2026.
 
 \bibitem[Bay \& Yearick(2024)Bay and Yearick]{bay2024generalization}
 Yong~Yi Bay and Kathleen~A. Yearick.
