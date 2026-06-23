@@ -618,17 +618,17 @@ solve, and for tridiagonal systems the workhorse is the Thomas
 algorithm~\citep{thomas1949elliptic}.  Given $\Ax\bm{x} = \bm{d}$
 with $\Ax$ tridiagonal of subdiagonal $a_i$, diagonal $b_i$, and
 superdiagonal $c_i$, the forward sweep eliminates the subdiagonal.
-With $\tilde c_1=c_1/b_1$ and $\tilde d_1=d_1/b_1$, define
-\begin{align}
+With $\tilde c_1=c_1/b_1$ and $\tilde d_1=d_1/b_1$, the interior rows
+$i=2,\ldots,N_\xi-1$ use
+\begin{equation}
 \label{eq:thomas-fwd}
-  m_i &= b_i-a_i\tilde c_{i-1},
-  &\tilde c_i &= \frac{c_i}{m_i},
-  &\tilde d_i &= \frac{d_i-a_i\tilde d_{i-1}}{m_i},
-  && i=2,\ldots,N_\xi-1, \\
-  m_{N_\xi} &= b_{N_\xi}-a_{N_\xi}\tilde c_{N_\xi-1},
-  &\tilde d_{N_\xi} &=
-  \frac{d_{N_\xi}-a_{N_\xi}\tilde d_{N_\xi-1}}{m_{N_\xi}}.\nonumber
-\end{align}
+  m_i = b_i-a_i\tilde c_{i-1},\quad
+  \tilde c_i = \frac{c_i}{m_i},\quad
+  \tilde d_i = \frac{d_i-a_i\tilde d_{i-1}}{m_i},
+\end{equation}
+and the final row closes the sweep with
+$m_{N_\xi} = b_{N_\xi}-a_{N_\xi}\tilde c_{N_\xi-1}$ and
+$\tilde d_{N_\xi} = (d_{N_\xi}-a_{N_\xi}\tilde d_{N_\xi-1})/m_{N_\xi}$.
 These formulas assume the pivots $m_i$ are nonzero.  That is the
 usual case for the diagonally dominant elliptic line factors that
 motivate the discussion; otherwise one must use pivoting or a more
