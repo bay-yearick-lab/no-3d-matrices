@@ -139,8 +139,8 @@ def make_figure(rows: list[dict]) -> None:
     ax.set_ylabel("operator storage (MB)", fontsize=10)
     ax.set_title("(b) operator storage", fontsize=11)
 
-    # One legend for both panels: the two routes share colours and markers
-    # across (a) and (b), so a single key centred above the figures suffices.
+    # One legend for both panels: both routes share colors and markers across
+    # (a) and (b), so a single key above the figures covers them.
     handles, labels = axes[0].get_legend_handles_labels()
     fig.legend(handles, labels, loc="outside upper center", ncol=2,
                frameon=False, fontsize=9)
