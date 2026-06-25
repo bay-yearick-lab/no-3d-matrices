@@ -5,7 +5,7 @@ Source and reproducibility code for the paper
 **No 3D Matrices: A Unified Tensor-Product View of Matrix-Free Cartesian PDE Solvers**
 Yong Yi Bay and Kathleen A. Yearick
 
-> Preprint: arXiv:XXXX.XXXXX — *link to be added once posted.*
+> Preprint: [arXiv:2606.25148](https://arxiv.org/abs/2606.25148)
 
 Every Cartesian tensor-product PDE discretization — finite differences, compact
 (Padé) schemes, Galerkin, B-spline / isogeometric, collocation, ADI time
@@ -22,7 +22,7 @@ production codes turn it into hardware-efficient kernels.
   title         = {No 3D Matrices: A Unified Tensor-Product View of Matrix-Free Cartesian PDE Solvers},
   author        = {Bay, Yong Yi and Yearick, Kathleen A.},
   year          = {2026},
-  eprint        = {XXXX.XXXXX},
+  eprint        = {2606.25148},
   archivePrefix = {arXiv},
   primaryClass  = {math.NA}
 }
